@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      This is the page head - it contains info the browser uses to display the page
+      You won't see what's in the head in the page
+      Scroll down to the body element for the page content
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <title>Light and Sound Memory Game<</title>
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+        <!-- This is the start of content for our page -->
+        <h1 class="title">Light and Sound Memory Game</h1>
+          <p>
+            Welcome to the game! Repeat back the pattern by pressing buttons.
+          </p>
+          <!-- ADD BUTTON HERE -->
+          <button id="startBtn" onclick ="startGame()">
+            Start
+          </button>
+          <button id="stopBtn" class="hidden" onclick = "stopGame()">
+            Stop
+          </button>
+          <span id="timer"></span>
+          
+          <div id="gameButtonArea">
+            <button id="button1"  onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()" ></button>
+            <button id="button2"  onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"   ></button>
+            <button id="button3"  onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"  ></button>
+            <button id="button4"  onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"   ></button>
+            <button id="button5"  onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()" ></button>
+            <button id="button6"  onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()"   ></button>
+            <button id="button7"  onclick="guess(7)" onmousedown="startTone(7)" onmouseup="stopTone()"  ></button>
+            <button id="button8"  onclick="guess(8)" onmousedown="startTone(8)" onmouseup="stopTone()"   ></button>
+          </div>
+  </body>
+</html>
