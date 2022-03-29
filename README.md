@@ -40,8 +40,8 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 ![](http://g.recordit.co/cpQQG5OH9s.gif)
-![](gif2-link-here)
-![](gif3-link-here)
+![](http://g.recordit.co/LHREAOU1BY.gif)
+![](http://g.recordit.co/AFVytVnecs.gif)
 ![](gif4-link-here)
 
 ## Reflection Questions
