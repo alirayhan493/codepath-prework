@@ -49,10 +49,10 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 [YOUR ANSWER HERE]
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+[Challenges that I have encountered while creating this project would be the debugging aspect after implementnig the project. Often times after running the program there would be small issues like such as not telling the player that they have won or the correct button computing as incorrect. I was finding it frustrating trying to figure out what the issue was causing this to happen. So what I did was kind of read the program line by line and see what varaibles were be passing through functions so see whats a little off. I utilized console log and printed progress or guess counter at certain points in the program to see whats being passed through.  ]
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+[After completing the project, I found that some concepts were difficult to understand or took awhile to grasp.]
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
