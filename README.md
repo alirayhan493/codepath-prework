@@ -48,20 +48,21 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 [YOUR ANSWER HERE]
 
-2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[Challenges that I have encountered while creating this project would be the debugging aspect after implementnig the project. Often times after running the program there would be small issues like such as not telling the player that they have won or the correct button computing as incorrect. I was finding it frustrating trying to figure out what the issue was causing this to happen. So what I did was kind of read the program line by line and see what varaibles were be passing through functions so see whats a little off. I utilized console log and printed progress or guess counter at certain points in the program to see whats being passed through.  ]
+2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) <br/><br/>
+[The challenge that I have encountered while creating this project would be the debugging aspect of it after implementing the project. I came across this issue where the game would continue even though the pattern was complete. It would just keep replaying the entire pattern and not letting the player know that the game has ended. It was frustrating trying to figure out what the issue was to cause this to happen. I decided to read the code line by line to see what variables were passing around to see what causing the problem. I utilized console log and printed progress and guesscounter at certain points of the code by determining that they were likely to be the cause. I found that the reason was that the progress wasn't being properly tracked therefore the gamen ever knows when it has ended. Another challenge I found was when doing the optional tasks. When trying to speed up the button as the pattern continues, I found that once the pattern hit like the 5th or 6th pathern, the buttons would start clicking way too fast for the player to see rendering the game unplayable. I had to keep adjusting clueholdtime and found that a speed of 1000 would allow the player to still see the buttons being pressed at later patterns.   ]
 
-3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[After completing the project, I found that some concepts were difficult to understand or took awhile to grasp.]
+3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)  <br/><br/>
+[After completing the project, I found that some concepts were difficult to understand or took awhile to grasp. But despite this I still want to be able to become a skilled web developer and create things that I visualize by better understanding core concepts of react. I've created small projects with react but lack the skills and path to be in that desirable position. My question is, what direction should I head to achieve this. In this path program, it includes understanding full stack projects and working with databaseS which I think would help me immensely. Another question I have is how do I better understand CSS? CSS is such an important part of web development, and isued to catch the user's eye. Ideally I'd love to create websites like this that are visually appealing such as websites like https://farfromhere.emmitfenn.com/. But I know I lack the skills and knowledge to get to that level and would love to get there. 
 
-4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) <br/><br/>
+[While working on this project I had a few ideaas that I thought of while developing. Such as replacing the current buttons with piano keys and having them play piano notes instead just for a certain asthetic. Another idea that I had was after having added the speed change as the pattern goes on. Another possible feature could be creating different difficulty options, where the player selects between easy, normal or hard. Based on the difficulty the number of buttons and sounds to be played would be adjusted. Another possible feature is the repeat button that could only be used 3 times throughout the entire attempt, which would replay what the current pattern is at. 
+ ]
 
 
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://www.youtube.com/watch?v=pfTzAO28w1Q)
 
 
 ## License
