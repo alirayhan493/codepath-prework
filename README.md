@@ -46,7 +46,9 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+[1.https://www.w3schools.com/js/ </br>
+ 2.https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration </br>
+ 3.https://www.w3schools.com/js/js_dates.asp]
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) <br/><br/>
 [The challenge that I have encountered while creating this project would be the debugging aspect of it after implementing the project. I came across this issue where the game would continue even though the pattern was complete. It would just keep replaying the entire pattern and not letting the player know that the game has ended. It was frustrating trying to figure out what the issue was to cause this to happen. I decided to read the code line by line to see what variables were passing around to see what causing the problem. I utilized console log and printed progress and guesscounter at certain points of the code by determining that they were likely to be the cause. I found that the reason was that the progress wasn't being properly tracked therefore the gamen ever knows when it has ended. Another challenge I found was when doing the optional tasks. When trying to speed up the button as the pattern continues, I found that once the pattern hit like the 5th or 6th pathern, the buttons would start clicking way too fast for the player to see rendering the game unplayable. I had to keep adjusting clueholdtime and found that a speed of 1000 would allow the player to still see the buttons being pressed at later patterns.   ]
